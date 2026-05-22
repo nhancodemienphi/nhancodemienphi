@@ -1,0 +1,5 @@
+mail log resend gg auth: namkem1994@gmail.com
+mail log GitHub gg auth: namkem1994@gmail.com
+mail log render gg auth: namkem1994@gmail.com
+
+repo GitHub: source, nhancode

@@ -407,26 +407,6 @@ module.exports.getCodex8 = async (req, res) => {
     },
   });
 };
-module.exports.getCodeHit = async (req, res) => {
-  const banner1 = "../public/images/banner-hit.png";
-  const tenGame = "HIT ";
-  const content = `hỗ trợ người chơi tải game về cho điện thoại máy tính, chơi trực tiếp trên web. Theo thông tin mới từ NPH HIT sẽ thực hiện Big Update khoảng mỗi tháng 1 lần. Những thay đổi từ X8 bổ sung như tỷ giá nạp, rút nhằm mang đến chất lượng dịch vụ nhất cho người chơi.`;
-  const tenCode = "HIT";
-  const triGia = "";
-  const linkpage = "./nhan-code-hit";
-  const banner2 = "../public/images/banner-hit2.png";
-  res.render("gamepage", {
-    data: {
-      banner1,
-      tenGame,
-      banner2,
-      tenCode,
-      triGia,
-      content,
-      linkpage,
-    },
-  });
-};
 
 module.exports.getCodetop88 = async (req, res) => {
   const banner1 = "../public/images/top88-banner.jpg";
