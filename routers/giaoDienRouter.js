@@ -22,6 +22,7 @@ router.get("/nhan-code-b29", controller.getCodeb29);
 router.get("/nhan-code-bum68", controller.getCodebum68);
 router.get("/code-nhatvip", controller.getCodenhatvip);
 router.get("/nhan-code-x8", controller.getCodex8);
+router.get("/nhan-code-hit", controller.getCodeHit);
 router.get("/nhan-code-top88", controller.getCodetop88);
 router.get("/nhan-code-loc-club", controller.getCodelocclub);
 router.get("/login-get-gift-code", controller.getCode);
